@@ -1,0 +1,8 @@
+query hero{
+  hero(episode:EMPIRE){
+    name
+    friends{
+      name
+    }
+  }
+}

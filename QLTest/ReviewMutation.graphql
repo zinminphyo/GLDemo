@@ -1,0 +1,12 @@
+
+mutation review{
+  createReview(episode:EMPIRE
+               review:{
+                stars: 10
+              }){
+    commentary
+    stars
+    episode
+  }
+}
+

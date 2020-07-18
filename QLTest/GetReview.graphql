@@ -1,0 +1,7 @@
+query getReviews{
+  reviews(episode:NEWHOPE){
+    stars
+    commentary
+    episode
+  }
+}
