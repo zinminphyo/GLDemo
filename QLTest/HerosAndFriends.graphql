@@ -1,0 +1,12 @@
+query getHerosAndFriends($episode:Episode){
+  hero(episode:$episode){
+    ...HeroDetails
+    friends{
+      ...HeroDetails
+    }
+  }
+}
+fragment HeroDetails on Character {
+  name
+  appearsIn
+}

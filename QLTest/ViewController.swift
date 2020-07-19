@@ -62,5 +62,26 @@ class ViewController: UIViewController {
         
     }
     
+    
+    @IBAction func herosAndFriendsBtn(_ sender: UIButton) {
+        
+        Network.shared.apollo.fetch(query: GetHerosAndFriendsQuery(), cachePolicy: .fetchIgnoringCacheCompletely, context: .none, queue: .main) { (result) in
+            let _ = result.mapError { (error) -> Error in
+                print("Get heros and review error is \(error.localizedDescription)")
+                return error
+            }
+            
+            do {
+                let response = try result.get()
+                if let responseData = response.data {
+                    print("Response data in get heros and friends is \(responseData.jsonObject)")
+                }
+            }catch {
+                print("Result error in get heros and review error is \(error.localizedDescription)")
+            }
+        }
+        
+    }
+    
 }
 

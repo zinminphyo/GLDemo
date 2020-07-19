@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6478512570C2277E17582F3F /* Pods_QLTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60059D0F878F9DD78F47455B /* Pods_QLTest.framework */; };
+		B01B42D324C3FCFA00307780 /* HerosAndFriends.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B01B42D224C3FCFA00307780 /* HerosAndFriends.graphql */; };
 		B03A8F3A24C1625000D8384F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A8F3924C1625000D8384F /* AppDelegate.swift */; };
 		B03A8F3C24C1625000D8384F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A8F3B24C1625000D8384F /* SceneDelegate.swift */; };
 		B03A8F3E24C1625000D8384F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A8F3D24C1625000D8384F /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		16F96BC42974B395CEB2B349 /* Pods-QLTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLTest.debug.xcconfig"; path = "Target Support Files/Pods-QLTest/Pods-QLTest.debug.xcconfig"; sourceTree = "<group>"; };
 		60059D0F878F9DD78F47455B /* Pods_QLTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QLTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01B42D224C3FCFA00307780 /* HerosAndFriends.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = HerosAndFriends.graphql; sourceTree = "<group>"; };
 		B03A8F3624C1625000D8384F /* QLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03A8F3924C1625000D8384F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B03A8F3B24C1625000D8384F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				B03A8F5624C16BF600D8384F /* Network.swift */,
 				B03A8F5C24C2992A00D8384F /* ReviewMutation.graphql */,
 				B03A8F5E24C29ED600D8384F /* GetReview.graphql */,
+				B01B42D224C3FCFA00307780 /* HerosAndFriends.graphql */,
 			);
 			path = QLTest;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				B03A8F5024C1645300D8384F /* Hero.graphql in Resources */,
 				B03A8F5324C166C800D8384F /* schema.json in Resources */,
 				B03A8F5D24C2992A00D8384F /* ReviewMutation.graphql in Resources */,
+				B01B42D324C3FCFA00307780 /* HerosAndFriends.graphql in Resources */,
 				B03A8F4624C1625400D8384F /* LaunchScreen.storyboard in Resources */,
 				B03A8F4324C1625400D8384F /* Assets.xcassets in Resources */,
 				B03A8F4124C1625000D8384F /* Main.storyboard in Resources */,

@@ -44,11 +44,28 @@
                                     <action selector="getReviewsBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mqi-sO-1dj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbw-DF-v57">
+                                <rect key="frame" x="50" y="608" width="314" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="0.36801690924657532" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Get Heros and friends"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="herosAndFriendsBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Chx-K7-kAq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Dbw-DF-v57" firstAttribute="height" secondItem="NqE-LG-Ok4" secondAttribute="height" id="5BC-9i-Dmx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vN6-ow-Go8" secondAttribute="trailing" constant="50" id="6AD-da-X3h"/>
+                            <constraint firstItem="Dbw-DF-v57" firstAttribute="leading" secondItem="NqE-LG-Ok4" secondAttribute="leading" id="CAJ-dU-PSo"/>
+                            <constraint firstItem="Dbw-DF-v57" firstAttribute="top" secondItem="NqE-LG-Ok4" secondAttribute="bottom" constant="50" id="Sby-3B-IpE"/>
                             <constraint firstItem="NqE-LG-Ok4" firstAttribute="trailing" secondItem="vN6-ow-Go8" secondAttribute="trailing" id="WkW-cI-gj2"/>
+                            <constraint firstItem="Dbw-DF-v57" firstAttribute="trailing" secondItem="NqE-LG-Ok4" secondAttribute="trailing" id="aQT-qp-41O"/>
                             <constraint firstItem="vN6-ow-Go8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ham-Sy-UqK"/>
                             <constraint firstItem="NqE-LG-Ok4" firstAttribute="height" secondItem="vN6-ow-Go8" secondAttribute="height" id="i2Y-6T-WJv"/>
                             <constraint firstItem="NqE-LG-Ok4" firstAttribute="leading" secondItem="vN6-ow-Go8" secondAttribute="leading" id="lnj-vr-629"/>
@@ -60,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="109"/>
+            <point key="canvasLocation" x="137.68115942028987" y="108.48214285714285"/>
         </scene>
     </scenes>
 </document>
